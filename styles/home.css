@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #343a40;
+}
+a {
+  color: #005dac;
+}
+.nova:visited {
+  color: #343a40;
+}
+span {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 268px;
+  margin-left: 20px;
+  background-color: white;
+  z-index: 99;
+}
+.logo {
+  max-width: 180px;
+  position: absolute;
+}
+.nava {
+  color: #343a40;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+.exit {
+  margin-top: 20px;
+}
+.nava:hover {
+  background-color: rgb(197, 221, 248);
+}
+.navigation {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+}
+main {
+  width: 1620px;
+}
+.header {
+  height: 70px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+}
+.header-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+}
+.uvid {
+  cursor: pointer;
+  color: rgb(202, 46, 46);
+}
+.bakalavr {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+h1 {
+  font-weight: 500;
+  font-size: 20px;
+}
+.ava {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.1));
+}
+.screen {
+  padding-left: 20px;
+  display: flex;
+  gap: 62px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.news {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  width: 487px;
+  height: auto;
+  display: flex;
+  gap: 30px;
+}
+.news-content {
+  width: 266px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.content {
+  color: #005dac;
+  display: flex;
+}
+.content-edv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 118px;
+}
+.edv-info {
+  width: 500px;
+  line-height: 20px;
+}
+.stud-info {
+  width: 500px;
+  line-height: 15px;
+}
+.edv {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  height: auto;
+  gap: 30px;
+}
+.table {
+  width: 100%;
+}
+table {
+  margin-top: 20px;
+  width: 90%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+th {
+  font-weight: bold;
+  padding: 15px;
+  background: #566f9e;
+  color: white;
+}
+td {
+  padding: 15px;
+}
+.table-2 {
+  width: 80%;
+}
+.table-2 td {
+  width: 200px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+}
+.blue-rasp {
+  background-color: #d3e0f1;
+}
+.orange-rasp {
+  background-color: #fae6d1;
+}
+.green-rasp {
+  background-color: #cdf3cd;
+}
+.violet-rasp {
+  background-color: #e3dff0;
+}
+.red-rasp {
+  background-color: #f2dbdb;
+}
+.instr {
+  width: 70%;
+}
